@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-cli",
+  "version": "1.0.0",
+  "description": "setup tailwind css through tailwind cli",
+  "main": "index.js",
+  "scripts": {
+    "dev":"tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MhAhmedDevStation/Tailwind-css.git"
+  },
+  "author": "ahmed mhamed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MhAhmedDevStation/Tailwind-css/issues"
+  },
+  "homepage": "https://github.com/MhAhmedDevStation/Tailwind-css#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
