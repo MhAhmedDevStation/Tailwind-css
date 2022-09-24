@@ -1,3 +1,16 @@
+ /* inject base styles into output.css file 
+    base styles removes the default padding and margings from all html tags
+ */
+
 @tailwind base;
+/* inject component classes into ur output.css file 
+
+*/
 @tailwind components;
+
+/* inject tailwind utilities classes into ur output.css 
+like bg-black
+*/
+
 @tailwind utilities;
+
